@@ -17,8 +17,7 @@ s.author           = { "张明炜" => "zjjzmw1@163.com" }
 s.source           = { :git => "https://github.com/zjjzmw1/ZMWIOSUtils.git", :tag => s.version.to_s }
 s.platform     = :ios, "7.0"
 
-#s.requires_arc = true
-s.requires_arc = false
+s.requires_arc = true
 
 s.source_files = "Classes/*"
 
